@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-cont {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.app-header {
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  background-color: chartreuse;
+}
+
+.bg-primary {
+  background-color: red;
+}
+
+.bg-secondary {
+  background-color: yellow;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-medium {
+  font-size: 5rem;
+}
